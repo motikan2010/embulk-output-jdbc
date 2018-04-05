@@ -225,7 +225,7 @@ public abstract class AbstractPostgreSQLCopyBatchInsert
                 s = "\\\n";
                 break;
             case '\t':
-                s = "\\t";
+                s = "    ";
                 break;
             case 0:
                 s = "";
